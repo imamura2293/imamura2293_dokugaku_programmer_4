@@ -57,4 +57,64 @@ float(99)
 
 int("Prince")
 
-age =
+age = input("Enter your age:")
+int_age = int(age)
+if int_age < 21:
+    print("you are young!")
+else:
+    print("Wow,you are old")
+
+
+def even_old(x):
+    if x % 2 == 0:
+        print("偶数")
+    else:
+        print("奇数")
+
+even_odd(2)
+even_odd(3)
+
+n = input("type a number:")
+n = int(n)
+if n % 2 ==0:
+    print("n is even.")
+else:
+    print("n is odd")
+
+n = input("type a number:")
+n = int(n)
+if n % 2 ==0:
+    print("n is even.")
+else:
+    print("n is odd")
+
+
+n = input("type a number:")
+n = int(n)
+if n % 2 ==0:
+    print("n is even.")
+else:
+    print("n is odd")
+
+
+def even_odd():
+    n = input("type number:")
+    n = int(n)
+    if n % 2 == 0:
+        print("n is even.)
+    else:
+        print("n is odd.")
+
+    even_odd()
+    even_odd()
+    even_odd()
+
+def f(x==2):
+    return x ** x
+
+print(f())
+print(f(4)
+
+def add_it(x,y=10)):
+    return x + y
+
